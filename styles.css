@@ -33,12 +33,21 @@ body {
     justify-content:space-between;
     align-items: center;   
 }
-.poster{
+.poster {
     display: flex;    
     justify-content: space-around;  
     gap: 100px; 
     padding-top: 80px; 
     padding-bottom: 80px; 
+}
+
+.placeholder {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px; 
+    width: 700px;   
 }
 
 ul {
@@ -63,9 +72,34 @@ button {
     padding: 8px 24px;
     color: white;
 }
-p{
+
+p {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-/* -------------------------------- */
+/* PROJECTS */
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 300px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.cont_projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sub_cont_pro{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+/* PHRASE */
