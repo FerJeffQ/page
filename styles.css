@@ -35,13 +35,15 @@ body {
     justify-content:space-between;
     align-items: center;     
     flex-wrap: wrap;
-    gap: 30px;
+    
     
 }
+
 .poster {
     display: flex;   
     flex-direction: row; 
     justify-content: space-around;  
+    align-items: center;
     gap: 100px; 
     padding-top: 80px; 
     padding-bottom: 80px; 
@@ -60,7 +62,7 @@ body {
 ul {
     list-style-type: none;
     display: flex;    
-    gap: 16px;   
+    gap: 30px;   
     
 }    
 
@@ -173,10 +175,10 @@ p {
     padding: 15px 300px;
 }
 
+
 /*  What can you do with a media query and flexbox? */
 @media (max-width: 600px) {
     .poster {
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }  
 }
