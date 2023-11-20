@@ -23,7 +23,7 @@ body {
 }
 
 .header{
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: #1F2937;
     color: white;    
     padding: 15px 300px; 
@@ -55,9 +55,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px; 
-    width: 700px;   
+  
 }
+.placeholder img {
+    /* max-height: 100%; */
+    /* height: auto; */
+    width: 400px;
+    height: fit-content;
+    
+}
+
 
 ul {
     list-style-type: none;
@@ -80,6 +87,7 @@ button {
     border-radius: 8px;
     padding: 8px 24px;
     color: white;
+    font-size: 1.2rem;
 }
 
 p {
