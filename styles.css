@@ -99,7 +99,49 @@ p {
 .sub_cont_pro{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
 }
 
 /* PHRASE */
+.phrase {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    justify-content: center;
+    width: 500px;
+    
+}
+#author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.container_button{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 40px 400px;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+#btn {
+    border: 2px solid #FFF;   
+}
+
+/* FOOTER */
+.footer_c {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    align-items: center;
+}
